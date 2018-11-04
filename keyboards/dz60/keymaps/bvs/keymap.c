@@ -10,11 +10,11 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 		KC_LCTL, KC_LALT, KC_LGUI, KC_SPC, KC_SPC, KC_SPC, KC_RGUI, KC_LEFT, KC_DOWN, KC_UP, KC_RIGHT),
 
 	LAYOUT(
-		KC_GRAVE, KC_F1, KC_F2, KC_F3, KC_F4, KC_F5, KC_F6, KC_F7, KC_F8, KC_F9, KC_F10, KC_F11, KC_F12, _______, KC_DEL,
+		KC_GRAVE, KC_SLCK, KC_PAUS, KC_F3, KC_F4, KC_F5, KC_F6, KC_MRWD, KC_MPLY, KC_MFFD, KC__MUTE, KC_VOLD, KC_VOLU, _______, KC_DEL,
 		_______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, RGB_TOG,
 		_______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, RESET,
 		_______, _______, _______, _______, _______, _______, MO(2), _______, _______, _______, _______, _______, KC__MUTE, _______,
-		_______, _______, _______, KC_MEDIA_PLAY_PAUSE, KC_MEDIA_PLAY_PAUSE, KC_MEDIA_PLAY_PAUSE, _______, KC_MEDIA_REWIND , KC__VOLDOWN, KC__VOLUP, KC_MEDIA_FAST_FORWARD),
+		_______, _______, _______, KC_MPLY, KC_MPLY, KC_MPLY, _______, KC_MRWD , KC_VOLD, KC_VOLU, KC_MFFD),
 
 	LAYOUT(
 		_______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, RESET,
